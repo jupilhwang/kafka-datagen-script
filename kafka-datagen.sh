@@ -6,5 +6,6 @@ curl -X POST -H "Content-Type: application/json" --data @config/connector_pagevi
 curl -X POST -H "Content-Type: application/json" --data @config/connector_orders.config http://${CONNECT_URL}:8083/connectors
 curl -X POST -H "Content-Type: application/json" --data @config/connector_inventory.config http://${CONNECT_URL}:8083/connectors
 curl -X POST -H "Content-Type: application/json" --data @config/connector_users.config http://${CONNECT_URL}:8083/connectors
+curl -X POST -H "Content-Type: application/json" --data @config/connector_users_.config http://${CONNECT_URL}:8083/connectors
 curl -X POST -H "Content-Type: application/json" --data @config/connector_product.config http://${CONNECT_URL}:8083/connectors
 curl -X POST -H "Content-Type: application/json" --data @config/connector_stock_trades.config http://${CONNECT_URL}:8083/connectors
